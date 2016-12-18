@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-camera-ffmpeg",
+  "name": "homebridge-ip-camera",
   "version": "0.0.2",
   "description": "ffmpeg plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "ip": "^1.1.3",
-    "request": "^2.78.0"
+    "request": "^2.78.0",
+    "serialport": "^4.0.7",
+    "sharp": "^0.17.0"
   }
 }
